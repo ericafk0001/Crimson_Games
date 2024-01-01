@@ -6,7 +6,14 @@
 
 #### A website with web Games made by 8percent and fryvex.
 
+
+## Hosting your own
 ```bash
 git clone https://github.com/ericafk0001/Crimson_Games
 ```
+```bash
+cd https://github.com/ericafk0001/Crimson_Games
+```
+**Have Node installed**
 
+`npm install`
