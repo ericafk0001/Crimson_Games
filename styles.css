@@ -1,0 +1,40 @@
+body {
+  background-color: #171717;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+input {
+  font-size: 1rem;
+  background-color: #c7c7c7;
+}
+
+.game-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.25rem;
+  margin-top: 1rem;
+}
+
+.game {
+  border: 1px solid black;
+  background-color: #fffff0;
+  padding: 0.5rem;
+}
+
+.game > .header {
+  margin-bottom: 0.25rem;
+}
+
+.card > .body {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.hide {
+  display: none;
+}
