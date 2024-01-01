@@ -8,12 +8,22 @@
 
 
 ## Hosting your own
-```bash
+`
 git clone https://github.com/ericafk0001/Crimson_Games
-```
-```bash
+`
+
+`
 cd https://github.com/ericafk0001/Crimson_Games
-```
-**Have Node installed**
+`
 
 `npm install`
+
+**Building**
+
+```bash
+npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
+```
+
+```bash
+npm run dev
+```
