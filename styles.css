@@ -1,5 +1,19 @@
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('assets/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+    url('assets/fonts/Mona-Sans.woff2') format('woff2-variations');
+  font-display: swap;
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
 body {
   background-color: #171717;
+  font-family: 'Mona Sans';
+}
+
+.ad-placement {
+  color: white;
 }
 
 .search-wrapper {
@@ -24,10 +38,23 @@ input {
   border: 1px solid black;
   background-color: #fffff0;
   padding: 0.5rem;
+  height: 300px;
+  width: 200px;
+  text-align: center;
 }
 
 .game > .header {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.3rem;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.game-image {
+  height: 170px;
+  width: 170px;
+  margin: auto;
+  margin-bottom: 5px;
+  display: block;
 }
 
 .card > .body {
