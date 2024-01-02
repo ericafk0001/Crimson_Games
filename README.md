@@ -23,7 +23,7 @@ cd https://github.com/ericafk0001/Crimson_Games
 ```bash
 npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
 ```
-
+*OR*
 ```bash
 npm run dev
 ```
