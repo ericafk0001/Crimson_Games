@@ -4,7 +4,7 @@
 
 ![](https://img.shields.io/github/stars/ericafk0001/Crimson_Games) ![](https://img.shields.io/github/forks/ericafk0001/Crimson_Games) ![](https://img.shields.io/github/issues/ericafk0001/Crimson_Games)
 
-#### A website with web Games made by 8percent and fryvex.
+#### A website with web Games made by 8percent.
 
 
 ## Hosting your own
