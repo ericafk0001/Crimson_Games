@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Mona Sans';
-  src: url('assets/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+  src:
+    url('assets/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
     url('assets/fonts/Mona-Sans.woff2') format('woff2-variations');
   font-display: swap;
   font-weight: 200 900;
@@ -11,9 +12,11 @@
   font-family: 'Mona Sans';
 }
 
+/*
 .game-boxes {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 5rem;
   margin-top: 1rem;
 }
+*/
