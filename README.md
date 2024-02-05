@@ -8,6 +8,8 @@
 
 
 ## Hosting your own
+Make sure to have Node.js and NPM installed
+
 `
 git clone https://github.com/ericafk0001/Crimson_Games
 `
