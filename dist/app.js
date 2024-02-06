@@ -1,12 +1,17 @@
-let input = document.getElementById('search');
-let games = document.querySelectorAll('.game');
+let input = document.getElementById("search");
+let games = document.querySelectorAll(".game");
 
-input.addEventListener('input', function (e) {
+input.addEventListener("input", function (e) {
   const term = this.value.toLowerCase();
   games.forEach(function (game) {
     const gameText = game
-      .querySelector('.game-title')
+      .querySelector(".game-title")
       .textContent.toLowerCase(); // or .innerText.toLowerCase();
     game.hidden = !gameText.includes(term);
   });
 });
+
+window.onload = function () {
+  // Hide loading spinner after all assets are loaded
+  document.getElementById("loading-container").style.display = "none";
+};
