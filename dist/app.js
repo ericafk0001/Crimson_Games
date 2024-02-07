@@ -1,3 +1,8 @@
+window.onload = function () {
+  // Hide loading spinner after all assets are loaded
+  document.getElementById("loading-container").style.display = "none";
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   const target = "games";
   loadContent(target);
@@ -11,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         )[0].innerHTML = createContentHTML(target, data);
         let input = document.getElementById("search");
         let games = document.querySelectorAll(".game");
-      
+
         input.addEventListener("input", function (e) {
           const term = this.value.toLowerCase();
           games.forEach(function (game) {
@@ -76,5 +81,4 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>`;
   }
-
 });
