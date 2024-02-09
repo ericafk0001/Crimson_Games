@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p class="game-body block text-slate-300 text-base">${game.description}</p>
         </div>
         <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#logic</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#${game.tag}</span>
           <div class="flex justify-center">
             <form action="games/${game.name}.html" method="get">
               <button class="playBtn bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 ps-20 pe-20 rounded inline-flex items-center">

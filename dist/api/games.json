@@ -1,9 +1,38 @@
 [
-    { "id": 1, "name": "Among Us", "description": "Fan made Among Us game."},
-    { "id": 2, "name": "Among Us", "description": "Fan made Among Us game."},
-    { "id": 3, "name": "Among Us", "description": "Fan made Among Us game."},
-    { "id": 4, "name": "Among Us", "description": "Fan made Among Us game."},
-    { "id": 5, "name": "Among Us", "description": "Fan made Among Us game."},
-    { "id": 6, "name": "Among Us", "description": "Fan made Among Us game."}
-  ]
-  
+  {
+    "id": 1,
+    "name": "Among Us",
+    "description": "Fan made Among Us game.",
+    "tag": "logic"
+  },
+  {
+    "id": 2,
+    "name": "Among Us",
+    "description": "Fan made Among Us game.",
+    "tag": "logic"
+  },
+  {
+    "id": 3,
+    "name": "Among Us",
+    "description": "Fan made Among Us game.",
+    "tag": "logic"
+  },
+  {
+    "id": 4,
+    "name": "Among Us",
+    "description": "Fan made Among Us game.",
+    "tag": "logic"
+  },
+  {
+    "id": 5,
+    "name": "Among Us",
+    "description": "Fan made Among Us game.",
+    "tag": "logic"
+  },
+  {
+    "id": 6,
+    "name": "Among Us",
+    "description": "Fan made Among Us game.",
+    "tag": "logic"
+  }
+]
