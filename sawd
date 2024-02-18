@@ -1,0 +1,215 @@
+[33mcommit 779b36c9a344d66f76f639a1339f7fe8d78a6c77[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: ericafk0001 <dxslyofficial@gmail.com>
+Date:   Sun Feb 18 17:53:03 2024 -0500
+
+    back at it again guys
+
+[33mcommit 3ccd5233634fce3f563779d4c7e18c8c7ccf17db[m
+Merge: dad2a43 35ff047
+Author: ericafk0001 <dxslyofficial@gmail.com>
+Date:   Thu Feb 8 22:00:51 2024 -0500
+
+    Merge branch 'main' of https://github.com/ericafk0001/Crimson_Games
+
+[33mcommit dad2a439610feb0c6076f187426be11a0b43f95f[m
+Author: ericafk0001 <dxslyofficial@gmail.com>
+Date:   Thu Feb 8 22:00:49 2024 -0500
+
+    api update
+
+[33mcommit 35ff047e6765e3255c32df6856a80a4d6d7ee6ae[m
+Author: 8percent <85259809+ericafk0001@users.noreply.github.com>
+Date:   Thu Feb 8 22:00:21 2024 -0500
+
+    Update README.md
+
+[33mcommit 596b1a55ddf63f1456916bdbefa1605df5dd5e33[m
+Merge: 27d76d6 4a6c30d
+Author: x1yl <life23243@tutanota.com>
+Date:   Tue Feb 6 21:25:16 2024 -0500
+
+    Merge pull request #2 from x1yl/testing
+    
+    Shortened app.js
+
+[33mcommit 4a6c30ddab70fc07ead0211bdb0ab254acb94e53[m
+Author: xtyl <life23243@tutanota.com>
+Date:   Tue Feb 6 21:16:26 2024 -0500
+
+    Shortened app.js
+
+[33mcommit 27d76d62e9e1efc634ad27f5e0151d9ec38eddf4[m
+Merge: 4df64cf aa54bd9
+Author: x1yl <life23243@tutanota.com>
+Date:   Tue Feb 6 20:01:32 2024 -0500
+
+    Merge pull request #1 from x1yl/api-test
+    
+    Added Api
+
+[33mcommit aa54bd98dba9dea37fc549e6e59252eb67388fb0[m
+Merge: cd99a29 4df64cf
+Author: x1yl <life23243@tutanota.com>
+Date:   Tue Feb 6 19:59:46 2024 -0500
+
+    Merge branch 'main' into api-test
+
+[33mcommit cd99a29e3ead5a6baa69143841580597bc41da07[m
+Author: xtyl <life23243@tutanota.com>
+Date:   Tue Feb 6 19:44:15 2024 -0500
+
+    Added changes and consistent formatting
+
+[33mcommit 4df64cf303df24484c23b68bd2f6b09d4a5fd47f[m
+Author: ericafk0001 <dxslyofficial@gmail.com>
+Date:   Mon Feb 5 22:42:15 2024 -0500
+
+    color
+
+[33mcommit 814472645e55932c8b29973518d53ec859351274[m
+Author: ericafk0001 <dxslyofficial@gmail.com>
+Date:   Mon Feb 5 22:14:03 2024 -0500
+
+    pre loader
+
+[33mcommit c609c04a43aac843ba6cd4ecc971f75f432c555e[m
+Author: xtyl <life23243@tutanota.com>
+Date:   Mon Feb 5 22:09:09 2024 -0500
+
+    renamed:    api/games.json -> dist/api/games.json
+
+[33mcommit a055545cad698ba13456d6bb0a204f6a135176a6[m
+Author: xtyl <life23243@tutanota.com>
+Date:   Mon Feb 5 22:00:06 2024 -0500
+
+    json data base to control game page (tags not done)
+
+[33mcommit 6e0acabadcb8de4f9603844e964df1638c123f09[m
+Author: ericafk0001 <dxslyofficial@gmail.com>
+Date:   Mon Feb 5 17:38:26 2024 -0500
+
+    pre beta 2
+
+[33mcommit f7bbd7c90cf21cbe43bf7b854dbcf8c0e74d102b[m
+Merge: bb8ddd2 bdbdce1
+Author: ericafk0001 <dxslyofficial@gmail.com>
+Date:   Sun Feb 4 23:57:19 2024 -0500
+
+    Merge branch 'main' of https://github.com/ericafk0001/Crimson_Games
+
+[33mcommit bb8ddd2f3687c2b1a291136ae8f78cb746d1f85f[m
+Author: ericafk0001 <dxslyofficial@gmail.com>
+Date:   Sun Feb 4 23:56:55 2024 -0500
+
+    pre beta
+
+[33mcommit bdbdce1b56523fbd11a069852d6639772c3614e8[m
+Author: 8percent <85259809+ericafk0001@users.noreply.github.com>
+Date:   Thu Feb 1 09:19:25 2024 -0500
+
+    Update README.md
+
+[33mcommit 9172cc036935ce38a9e6e13296dc5b520af10c28[m
+Author: 8percent <85259809+ericafk0001@users.noreply.github.com>
+Date:   Thu Feb 1 09:19:04 2024 -0500
+
+    Update README.md
+
+[33mcommit 858bd6b4e8c1fd03bdcbce94e678adeccd27b930[m
+Merge: 64d4264 ef51cb0
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Fri Jan 5 19:32:54 2024 -0500
+
+    Merge branch 'main' of https://github.com/ericafk0001/Crimson_Games
+
+[33mcommit 64d426455727755d5ca47988c5e19baea884f672[m
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Fri Jan 5 19:32:51 2024 -0500
+
+    1
+
+[33mcommit ef51cb02af11574670e34a650d0c6210ee47bd76[m
+Author: 8percent <85259809+ericafk0001@users.noreply.github.com>
+Date:   Thu Jan 4 13:24:39 2024 -0500
+
+    Update README.md
+
+[33mcommit 389ca359cc8afe7e6b34237479cd688d74e9c021[m
+Merge: fab61fd 348997c
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Tue Jan 2 17:18:38 2024 -0500
+
+    Merge branch 'main' of https://github.com/ericafk0001/Crimson_Games
+
+[33mcommit fab61fdce4294bfba3aaa97fa8bfb07fa38c43f3[m
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Tue Jan 2 17:17:55 2024 -0500
+
+    New Commit
+
+[33mcommit 348997cddfeeb9933769f7738ed65299f7740334[m
+Author: 8percent <85259809+ericafk0001@users.noreply.github.com>
+Date:   Tue Jan 2 10:10:24 2024 -0500
+
+    Update README.md
+
+[33mcommit bcc693e848866c9d2736ace84baec3b42d8dfada[m
+Merge: 9f07cfb 8141e1c
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Tue Jan 2 10:09:30 2024 -0500
+
+    Merge branch 'main' of https://github.com/ericafk0001/Crimson_Games
+
+[33mcommit 9f07cfba35acda4ee7fbe319179fe22232e2b1a3[m
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Tue Jan 2 10:02:52 2024 -0500
+
+    404 colors
+
+[33mcommit 8141e1c99237749e8cd51fc89d85b4902f27fd7b[m
+Author: 8percent <85259809+ericafk0001@users.noreply.github.com>
+Date:   Mon Jan 1 12:42:29 2024 -0500
+
+    Update README.md
+
+[33mcommit 31891155a75304d02f896a15acbd320ced85afd5[m
+Author: 8percent <85259809+ericafk0001@users.noreply.github.com>
+Date:   Mon Jan 1 12:39:02 2024 -0500
+
+    Update README.md
+
+[33mcommit 072cf173ffd44563e0150db1562f3597792ef1d3[m
+Author: 8percent <85259809+ericafk0001@users.noreply.github.com>
+Date:   Mon Jan 1 12:35:49 2024 -0500
+
+    Update README.md
+
+[33mcommit 0ce72c80e8e12736faae058742a747a2afb24384[m
+Author: 8percent <85259809+ericafk0001@users.noreply.github.com>
+Date:   Mon Jan 1 12:27:39 2024 -0500
+
+    Create README.md
+
+[33mcommit b9b8d847ff62cacb66e5ef2600a70471521a07f3[m
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Mon Jan 1 12:25:42 2024 -0500
+
+    404 page, tailwind dependencies, etc
+
+[33mcommit db595d0dd6ac80422c1445213bed8e25a0242215[m
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Mon Jan 1 11:08:41 2024 -0500
+
+    tailwind CSS
+
+[33mcommit 392da1faffab8a1de15ef93d7b6364df92a244e7[m
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Sun Dec 31 22:14:09 2023 -0500
+
+    responsive divs
+
+[33mcommit 6de64e6ba1ceb73798e880723e4466fdf521dcd0[m
+Author: Eric Lin <dxslyofficial@gmail.com>
+Date:   Wed Dec 27 16:27:02 2023 -0500
+
+    first commit
