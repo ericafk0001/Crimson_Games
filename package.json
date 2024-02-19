@@ -104,7 +104,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./dist/input.css -o ./dist/style.css --watch",
     "build:css": "postcss styles.css -o dist/styles.css",
-    "build": "npm run build:css"
+    "build": "npm run dev"
   },
   "author": "",
   "license": "ISC",
