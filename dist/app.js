@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const gameContainer = document.querySelector(
         ".game-boxes.flex.flex-wrap.justify-center"
       );
+      gameContainer.innerHTML = data.map(createGameHTML).join("");
       const input = document.getElementById("search");
       const games = document.querySelectorAll(".game");
 
@@ -25,8 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
           };
         });
       });
-
-      gameContainer.innerHTML = data.map(createGameHTML).join("");
     })
     .catch((error) => console.error("Error fetching data:", error));
 
