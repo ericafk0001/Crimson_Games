@@ -32,5 +32,4 @@ to do
 
 - finish up the game template page
 - implement ads
-- fix search
 - add 10 games
