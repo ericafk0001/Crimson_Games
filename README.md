@@ -6,17 +6,13 @@
 
 #### A website with web Games made by 8percent.
 
-
 ## Hosting your own
+
 Make sure to have Node.js and NPM installed
 
-`
-git clone https://github.com/ericafk0001/Crimson_Games
-`
+`git clone https://github.com/ericafk0001/Crimson_Games`
 
-`
-cd https://github.com/ericafk0001/Crimson_Games
-`
+`cd https://github.com/ericafk0001/Crimson_Games`
 
 `npm install`
 
@@ -25,7 +21,16 @@ cd https://github.com/ericafk0001/Crimson_Games
 ```bash
 npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
 ```
-*OR*
+
+_OR_
+
 ```bash
 npm run dev
 ```
+
+to do
+
+- finish up the game template page
+- implement ads
+- fix search
+- add 10 games
