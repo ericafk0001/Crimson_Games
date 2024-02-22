@@ -19,11 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const gameText = game
             .querySelector(".game-title")
             .textContent.toLowerCase();
-          if (!gameText.includes(term)) {
-            game.style.display = "none";
-          } else {
-            game.style.display = "";
-          };
+          game.hidden = !gameText.includes(term);
         });
       });
     })
