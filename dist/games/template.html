@@ -92,43 +92,43 @@
         </div>
       </div>
     </nav>
-
-    <div class="relative rounded-xl overflow-auto p-8 flex justify-center">
-      <iframe
-        class="w-3/4 aspect-video rounded-lg shadow-lg"
-        src="./Among Us.html"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen=""
-      ></iframe>
+    <main
+      class="flex justify-center px-8 md:px-16 lg:px-32 xl:px-48"
+      style="opacity: 1; transform: none"
+    >
       <div
-        id="FullScreenBanner"
-        tabindex="-1"
-        class="flex fixed z-50 gap-8 justify-between items-start py-3 px-4 w-full bg-gray-50 border border-b border-gray-200 sm:items-center dark:border-gray-700 lg:py-4 dark:bg-gray-800"
+        class="relative my-16 flex w-[95%] flex-col overflow-hidden rounded-lg bg-bg-secondary shadow-lg text-white"
       >
-        <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-          Fullscreen the game after watching an ad
-        </p>
-        <button
-          data-collapse-toggle="FullScreenBanner"
-          type="button"
-          class="flex items-center text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 dark:hover:bg-gray-600 dark:hover:text-white"
+        <iframe
+          id="game"
+          scrolling="no"
+          src="./Among Us.html"
+          class="aspect-video w-full"
+        ></iframe>
+
+        <div
+          class="absolute bottom-0 left-0 z-50 w-full p-4 border-t bg-gray-700 border-gray-600"
         >
-          <svg
-            class="w-5 h-5"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
+          <div class="flex items-center justify-between">
+            <p class="text-center text-sm font-normal text-gray-400">
+              Watch an ad to fullscreen
+            </p>
+            <button
+              id="fullscreenButton"
+              class="flex items-center text-sm font-medium md:inline-flex text-blue-500 underline-hover"
+            >
+              <span>
+                <img
+                  src="../assets/images/fullscreen.png"
+                  alt="Fullscreen Icon"
+                  class="w-4 h-4 ms-2 rtl:rotate-180"
+                />
+              </span>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
+    </main>
 
     <script>
       // handle the hamburger menu
@@ -145,6 +145,24 @@
             navbarDefault.style.display = "none";
           }
         });
+      });
+
+      const fullscreenButton = document.getElementById("fullscreenButton");
+      const iframe = document.getElementById("game");
+
+      fullscreenButton.addEventListener("click", () => {
+        if (iframe.requestFullscreen) {
+          iframe.requestFullscreen();
+        } else if (iframe.mozRequestFullScreen) {
+          /* Firefox */
+          iframe.mozRequestFullScreen();
+        } else if (iframe.webkitRequestFullscreen) {
+          /* Chrome, Safari and Opera */
+          iframe.webkitRequestFullscreen();
+        } else if (iframe.msRequestFullscreen) {
+          /* IE/Edge */
+          iframe.msRequestFullscreen();
+        }
       });
     </script>
   </body>
