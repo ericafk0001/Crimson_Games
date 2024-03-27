@@ -685,6 +685,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -695,14 +699,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mt-11 {
-  margin-top: 2.75rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
 }
 
 .block {
@@ -731,11 +727,6 @@ video {
 
 .aspect-video {
   aspect-ratio: 16 / 9;
-}
-
-.size-64 {
-  width: 16rem;
-  height: 16rem;
 }
 
 .h-10 {

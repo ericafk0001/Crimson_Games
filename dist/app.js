@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((response) => response.json())
     .then((data) => {
       const gameContainer = document.querySelector(
-        ".game-boxes.flex.flex-wrap.justify-center"
+        ".game-boxes.flex.flex-wrap.justify-center",
       );
       gameContainer.innerHTML = data.map(createGameHTML).join("");
       const input = document.getElementById("search");
