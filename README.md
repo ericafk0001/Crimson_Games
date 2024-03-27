@@ -30,6 +30,5 @@ npm run dev
 
 to do
 
-- finish up the game template page
 - implement ads
 - add 10 games
