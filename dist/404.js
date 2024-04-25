@@ -1,5 +1,5 @@
 function ContactSupport() {
-  window.location.href = "https://forms.gle/feY2YrGdXPFMddkv7";
+  window.location.href = "https://example.com";
 }
 
 function GoHome() {
